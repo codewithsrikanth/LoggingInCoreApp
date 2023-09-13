@@ -21,6 +21,7 @@ namespace LoggingInCoreApp.Controllers
         public IActionResult Privacy()
         {
             _logger.LogInformation("Privacy is calling");
+            _logger.LogInformation("Privacy is calling");
             return View();
         }
 
